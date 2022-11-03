@@ -1,0 +1,46 @@
+.MyProfileMain{
+    background-color: #ffffff;
+    margin: 2%;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    box-shadow: 2%;
+  
+}
+
+.ProfileAndSocialMediaLinks{
+    margin-top: 1%;
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    padding-left: 2%;
+}
+
+.SocialMediaLinks{
+    /* border: 1px solid yellow; */
+    width: 40%;
+    /* text-align: end; */
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    /* padding-right: 1%; */
+    /* flex-wrap: wrap; */
+
+}
+.SocialMediaLinks  div {
+    display: flex;
+}
+
+.description{
+    padding: 2%;
+
+}
+.MySkills{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+/* 
+.fb-link{
+    display: flex;
+} */

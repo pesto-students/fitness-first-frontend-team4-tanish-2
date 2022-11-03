@@ -1,0 +1,180 @@
+
+.ClientMain{
+    /* background-color: aqua; */
+height: 100%;
+display: flex;
+/* border: 2px solid green; */
+/* flex-direction: column; */
+padding-left: 2%;
+/* width: 100%; */
+
+
+
+
+}
+.ClientListAndSearchBar{
+    /* display: flex; */
+    flex-direction: column;
+    width: 70%;
+    border-right: 1px solid gray;
+    padding-top: 3%;
+    /* background-color: aqua; */
+    overflow: scroll;
+    margin-top: 1%;
+    
+   
+}
+
+.ClientProfile{
+    width: 30%;
+    /* border: 1px solid green; */
+    
+}
+
+
+.AvatarNameActivityAndGender{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:3% ;
+    padding-bottom:3% ;
+    margin-right:3% ;
+
+    margin-top: 2%;
+   
+}
+.AvatarNameActivityAndGender:hover{
+background-color: #ffffff;
+border-radius: 20px;
+border-color: #1F2833;
+}
+.AvatarNameActivityAndGender:hover  .FollowActivateButton   {
+    
+    cursor: pointer;
+    display: flex;
+    /* color: red; */
+  }
+.AvatarNameActivityGender{
+    display: flex;
+    padding-left: 2%;
+    /* flex-direction: row; */
+  
+}
+
+.FollowActivateButton{
+    padding-right: 20%;
+ /* background-color: aqua; */
+    /* margin: 20%; */
+    display: none;
+
+}
+.ActivateButton{
+    /* background-color: brown; */
+    padding-left: 5%;
+}
+
+
+.BGBoxOutside{
+    /* width: 100%; */
+    height: 40%;
+    /* background-color: aqua; */
+    margin-top: 3%;
+    /* border: 1px solid red; */
+}
+.BGBoxInside{
+    /* width: 100%; */
+    height: 50%;
+    background-color: #1F2833;
+    /* margin-top: 3%; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: baseline;
+}
+
+.ProfileImage{
+    /* border: 1px solid red; */
+    margin-left: 30%;
+    
+    margin-top:15% ;
+ 
+}
+
+.Profileinfo{
+    /* background-color: aqua; */
+    width: fit-content;
+    margin-left: 38%;
+    margin-top: 20%;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.FollowingPostFollowers{
+    /* background-color: aqua; */
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.GoalAndJoined{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    text-align: center;
+    /* border: 1px solid #1F2833; */
+}
+.MobileNumber{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    text-align: center;
+}
+.Goal{
+     border: 1px solid #1F2833; 
+     padding: 2%;
+     border-radius: 20px;
+}
+.JoinedTime{
+    border: 1px solid #1F2833; 
+    padding: 2%;
+
+    border-radius: 20px;
+}
+
+.Line{
+    border-top: 1px solid #1F2833;
+    margin-top: 3%;
+    
+}
+.LineVertical{
+    border-Left: 2px solid #1F2833;
+    margin-top: 3%;
+    height: 40px;
+    
+}
+.EmailId{
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+    text-align: center;
+}
+.DietWorkout{
+    display: flex;
+    justify-content: space-around;
+}
+.DietButtonOnProfile{
+    margin-top: 3%;
+}
+
+.ViewProfileButton{
+  
+   width: 100%;
+  
+   padding-left: 30%;
+   border-bottom:2px solid #1F2833 ;
+ 
+}
+
+

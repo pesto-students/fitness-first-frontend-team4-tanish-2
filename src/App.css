@@ -1,0 +1,25 @@
+.App {
+    background-color: black;
+    /* display: flex; */
+}
+
+.wallpaper {
+    width: 50%;
+
+}
+
+
+#qtl {
+    width: 50%;
+    padding: 50px;
+
+}
+#q {
+    padding: 70px;
+}
+ #t{
+    padding: 70px;
+}
+#l{
+    padding: 70px;
+} 

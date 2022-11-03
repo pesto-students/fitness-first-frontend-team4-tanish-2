@@ -1,0 +1,16 @@
+.Title{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.firstdot{
+    display: flex;
+ 
+ }
+
+ .dot {
+    color: #FFE300;
+  }

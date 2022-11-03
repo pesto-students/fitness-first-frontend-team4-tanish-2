@@ -1,0 +1,38 @@
+.newsfeed{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+   
+
+}
+.profile{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    padding-top: 5%;
+
+    
+    
+}
+.NameAndActive{
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+.PostDescription{
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.ThumbsUpAndLikeIcons{
+    width: 15%;
+    display: flex;
+    /* border: 1px solid red; */
+    padding-bottom: 2%;
+}
+
+.thumbsupicon{
+    /* border: 2px solid green; */
+    padding-left: 15%;
+    
+}

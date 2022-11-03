@@ -1,0 +1,23 @@
+.SettingsMain{
+    /* background-color: aquamarine; */
+    height: 100%;
+    padding: 3%;
+}
+.SettingsMenu{
+    display: flex;
+     /* border: 1px  solid red; */
+    /* justify-content: space-around; */
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#MenuOption{
+    display: flex;
+}
+
+
+
+.SaveDiscardButtons{
+margin-top: 15%;
+}

@@ -1,0 +1,27 @@
+
+.email{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.password{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.showhidebutton{
+    /* background-color: aqua; */
+    padding-top: 25%;
+}
+.loginsignupbutton{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.loginbutton{
+    /* padding-right: 10px; */
+    width: 40%;
+}
+.signupbutton{
+    /* padding-right: 10px; */
+    width: 40%;
+}

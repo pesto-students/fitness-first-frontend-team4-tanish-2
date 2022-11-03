@@ -1,0 +1,27 @@
+.HeadingDeleteAllButton {
+    display: flex;
+    /* border: 1px solid red; */
+    padding-left: 10%;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+.form {
+    display: flex;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    /* padding-top: 5%; */
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+#todolist{
+    /* background-color: aqua; */
+    display: flex;
+    font-weight: bolder;
+
+}

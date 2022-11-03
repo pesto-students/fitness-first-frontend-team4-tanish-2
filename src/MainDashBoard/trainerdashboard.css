@@ -1,0 +1,114 @@
+.dashboard{
+    display: flex;
+    background-color: #F2f2f2;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    /* border: 2px solid red; */
+    background-color: #1F2833;
+    width: 15%;
+    height: fit-content;
+    color: #FFFFFF;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.header_and_newsFeed_goals_and_todos{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100vh;
+}
+.header_and_newsFeed_goals_and_todos_menus{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100vh;
+}
+
+.header{
+   
+    width: 100%;
+    height: 15%;
+     /* box-shadow: 10px 10px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 10px 10px 5px lightgray; */
+    /* border: 1px solid red; */
+    
+}
+.news_feed{
+  
+    width: 55%;
+    margin-top: 1.5%;
+    height: 100%;
+    /* border: 1px solid green; */
+    background-color: #ffffff;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.goals{
+    margin-top: 4%;
+    border: 1px solid green;
+    width: 100%;
+    height: 50%;
+    
+    
+}
+.todo{
+    
+    width: 100%;
+    height: 50%;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+.newsFeed_goals_and_todos{
+    display: flex;
+   
+    height: 85%;
+
+}
+.goals_and_todos{
+    display: flex;
+    flex-direction: column;
+   
+    width: 45%;
+
+}
+
+.appointments_and_chats{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
+    
+    
+}
+.appointments{
+    width: 100%;
+    height: 45%;
+
+    /* background-color: #1F2833; */
+
+    border: 1px solid red;
+
+}
+.todo{
+    background-color: #FFE300;
+}
+.chats{
+    width: 100%;
+    height: 55%;
+   
+
+}
